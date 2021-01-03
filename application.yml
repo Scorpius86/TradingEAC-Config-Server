@@ -1,0 +1,18 @@
+applications:
+  stock-java-service:
+    message: Configured by Azure Spring Cloud - stock-java-service
+  price-java-service:
+    message: Configured by Azure Spring Cloud - price-java-service
+  security-java-service:
+    message: Configured by Azure Spring Cloud - security-java-service
+  stock-dotnet-service:
+    message: Configured by Azure Spring Cloud - stock-dotnet-service
+  price-dotnet-service:
+    message: Configured by Azure Spring Cloud - price-dotnet-service
+  security-dotnet-service:
+    message: Configured by Azure Spring Cloud - security-dotnet-service
+    azure:
+      cosmosdb:
+        uri: https://azure-spring-cloud-taller-cosmosdb.documents.azure.com:443/
+        key: 0DOjkFtvGEccDtzVk8JR4xy6tHPbiWt898onKMoDXUUTOmWh9kcnzneTw79tNZjAEBUxrNSnJj8ei5Lbn2qbWg==
+        database: taller-cosmosdb
